@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/vijaykumar0409/pst/tree/master/0705-design-hashset) |
 | [0867-transpose-matrix](https://github.com/vijaykumar0409/pst/tree/master/0867-transpose-matrix) |
 | [1472-design-browser-history](https://github.com/vijaykumar0409/pst/tree/master/1472-design-browser-history) |
 ## Matrix
@@ -18,6 +19,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/vijaykumar0409/pst/tree/master/0705-design-hashset) |
 | [1396-design-underground-system](https://github.com/vijaykumar0409/pst/tree/master/1396-design-underground-system) |
 ## String
 |  |
@@ -26,6 +28,7 @@
 ## Design
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/vijaykumar0409/pst/tree/master/0705-design-hashset) |
 | [1396-design-underground-system](https://github.com/vijaykumar0409/pst/tree/master/1396-design-underground-system) |
 | [1472-design-browser-history](https://github.com/vijaykumar0409/pst/tree/master/1472-design-browser-history) |
 | [1603-design-parking-system](https://github.com/vijaykumar0409/pst/tree/master/1603-design-parking-system) |
@@ -36,6 +39,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/vijaykumar0409/pst/tree/master/0705-design-hashset) |
 | [1472-design-browser-history](https://github.com/vijaykumar0409/pst/tree/master/1472-design-browser-history) |
 ## Stack
 |  |
@@ -49,4 +53,8 @@
 |  |
 | ------- |
 | [1472-design-browser-history](https://github.com/vijaykumar0409/pst/tree/master/1472-design-browser-history) |
+## Hash Function
+|  |
+| ------- |
+| [0705-design-hashset](https://github.com/vijaykumar0409/pst/tree/master/0705-design-hashset) |
 <!---LeetCode Topics End-->
