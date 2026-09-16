@@ -1,58 +1,57 @@
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 class UndergroundSystem {
 
-    // id -> [stationName, checkInTime]
-    private Map<Integer, Pair> checkIns;
-
-    // "start#end" -> [totalTime, numberOfTrips]
-    private Map<String, double[]> trips;
+    private Map<Integer, CheckInInfo> checkIns = new HashMap<>();
+    private Map<String, double[]> routes = new HashMap<>();
 
     public UndergroundSystem() {
-        checkIns = new HashMap<>();
-        trips = new HashMap<>();
     }
 
     public void checkIn(int id, String stationName, int t) {
-        checkIns.put(id, new Pair(stationName, t));
+        checkIns.put(id, new CheckInInfo(stationName, t));
     }
 
     public void checkOut(int id, String stationName, int t) {
-        Pair checkIn = checkIns.get(id);
+        CheckInInfo info = checkIns.get(id);
 
-        String start = checkIn.station;
-        int startTime = checkIn.time;
+        String route = info.station + "->" + stationName;
+        double travelTime = t - info.time;
 
-        String key = start + "#" + stationName;
+        if (!routes.containsKey(route)) {
+            routes.put(route, new double[]{0.0, 0.0});
+        }
 
-        double[] data = trips.getOrDefault(key, new double[]{0, 0});
-
-        data[0] += t - startTime; // total time
-        data[1]++;                // number of trips
-
-        trips.put(key, data);
+        double[] data = routes.get(route);
+        data[0] += travelTime;
+        data[1]++;
 
         checkIns.remove(id);
     }
 
     public double getAverageTime(String startStation, String endStation) {
-        String key = startStation + "#" + endStation;
+        String route = startStation + "->" + endStation;
 
-        double[] data = trips.get(key);
+        double[] data = routes.get(route);
 
         return data[0] / data[1];
     }
 
-    // Helper class to store check-in information
-    private static class Pair {
+    private static class CheckInInfo {
         String station;
         int time;
 
-        Pair(String station, int time) {
+        CheckInInfo(String station, int time) {
             this.station = station;
             this.time = time;
         }
     }
 }
 
+
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
