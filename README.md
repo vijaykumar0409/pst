@@ -21,6 +21,7 @@
 | ------- |
 | [0705-design-hashset](https://github.com/vijaykumar0409/pst/tree/master/0705-design-hashset) |
 | [1396-design-underground-system](https://github.com/vijaykumar0409/pst/tree/master/1396-design-underground-system) |
+| [1600-throne-inheritance](https://github.com/vijaykumar0409/pst/tree/master/1600-throne-inheritance) |
 ## String
 |  |
 | ------- |
@@ -31,6 +32,7 @@
 | [0705-design-hashset](https://github.com/vijaykumar0409/pst/tree/master/0705-design-hashset) |
 | [1396-design-underground-system](https://github.com/vijaykumar0409/pst/tree/master/1396-design-underground-system) |
 | [1472-design-browser-history](https://github.com/vijaykumar0409/pst/tree/master/1472-design-browser-history) |
+| [1600-throne-inheritance](https://github.com/vijaykumar0409/pst/tree/master/1600-throne-inheritance) |
 | [1603-design-parking-system](https://github.com/vijaykumar0409/pst/tree/master/1603-design-parking-system) |
 ## Counting
 |  |
@@ -57,4 +59,12 @@
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/vijaykumar0409/pst/tree/master/0705-design-hashset) |
+## Tree
+|  |
+| ------- |
+| [1600-throne-inheritance](https://github.com/vijaykumar0409/pst/tree/master/1600-throne-inheritance) |
+## Depth-First Search
+|  |
+| ------- |
+| [1600-throne-inheritance](https://github.com/vijaykumar0409/pst/tree/master/1600-throne-inheritance) |
 <!---LeetCode Topics End-->
